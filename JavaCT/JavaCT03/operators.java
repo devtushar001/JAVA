@@ -21,7 +21,23 @@ public class operators {
       // System.out.println(a<=b); //false
       // System.out.println(a==b); //false
       // System.out.println(a!=b); //true
-      System.out.println((5>2) && (2>3) && (4>3)); //false,
-      System.out.println((5>2) || (2>3) && (4>3)); //true, works left to rightpm 
+      // System.out.println((5>2) && (2>3) && (4>3)); //false,
+      // System.out.println((5>2) || (2>3) && (4>3)); //true, works left to right
+      int x = 4;
+      int y = x++;
+      System.out.println(x); //5
+      System.out.println(y); //4
+      int z = ++x;
+      System.out.println(x); //6
+      System.out.println(z); //6 same as (-)
+
+      int a = 5;
+      int b = a--;
+      System.out.println(a); //4
+      System.out.println(b); //5
+
+      int c = --a;
+      System.out.println(a); //3
+      System.out.println(c); //3
    }
 }
