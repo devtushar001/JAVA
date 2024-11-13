@@ -5,10 +5,15 @@ public class operators {
       // double x = 3.9847;
       // System.out.println(x);
       int a = 4, b = 2;
-      System.out.println(a + b);
-      System.out.println(a - b);
-      System.out.println(a * b);
-      System.out.println(a / b);
-      System.out.println(a % b);
+      // System.out.println(a + b); //6
+      // System.out.println(a - b); //2
+      // System.out.println(a * b); //8
+      // System.out.println(a / b); //2
+      // System.out.println(a % b); //0
+      System.out.println(a+=b); //6
+      System.out.println(a-=b); //4
+      System.out.println(a*=b); //8
+      System.out.println(a/=b); //4
+      System.out.println(a%=b); //0
    }
 }
