@@ -7,5 +7,4 @@ public class bitwiseoperator {
     System.out.println(a|b); //7
     System.out.println(a^b); //5
   }
-    
 }
