@@ -97,5 +97,5 @@ Most operators in Java have left-to-right associativity, except for assignment (
 If you want to experiment with precedence and associativity, remember to use parentheses liberally to make your code clear and prevent unexpected results.
 
 
---contest
-codesef - platform name (https://www.codechef.com/)
+--contest platform name
+codechef -  (https://www.codechef.com/)

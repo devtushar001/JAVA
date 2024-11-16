@@ -1,6 +1,6 @@
 package JavaCT.JavaCT05;
 
-public class exersizeOne {
+public class exersize01 {
   public static void main(String[] args) {
     int number = 9;
     System.out.println(number % 2 == 0);
