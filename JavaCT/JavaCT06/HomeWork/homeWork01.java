@@ -7,9 +7,9 @@ public class homeWork01 {
     char ch = 'E';
     ch = Character.toUpperCase(ch);
     if (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
-      System.out.println(ch + " is a vowel");
+      System.out.println(ch + " is a Vovel");
     } else {
-      System.out.println(ch + " is not a vowel");
+      System.out.println(ch + " is Consonent");
     }
 
     // checking given year is a leap year or not
@@ -24,11 +24,11 @@ public class homeWork01 {
 
     // write a program to print greatest number among three numbers
 
-    int a = 17, b = 19, c = 25;
+    int a = 8, b = 8, c = 2;
 
-    if ((a > b) && (a > c)) {
+    if ((a >= b) && (a >= c)) {
       System.out.println(a + " Greatest Value");
-    } else if ((b > a) && (b > c)) {
+    } else if ((b >= a) && (b >= c)) {
       System.out.println(b + " Greatest Value");
     } else {
       System.out.println(c + " is the Greatest Value");
@@ -44,3 +44,5 @@ public class homeWork01 {
     }
   }
 }
+
+// 
