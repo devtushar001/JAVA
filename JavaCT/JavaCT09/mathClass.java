@@ -13,5 +13,6 @@ public class mathClass {
        System.out.println(Math.sqrt(100));  // 10 square root of 100 in double datatypes
        System.out.println(Math.pow(2, 3));  // 8
        System.out.println(Math.abs(-5));  // 5
+       System.out.println(Math.random());
     }
 }
