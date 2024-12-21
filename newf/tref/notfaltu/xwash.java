@@ -1,5 +1,5 @@
-package newf.tref.notfaltu;
+// package newf.tref.notfaltu;
 
-public class xwash {
+// public class xwash {
   
-}
+// }
