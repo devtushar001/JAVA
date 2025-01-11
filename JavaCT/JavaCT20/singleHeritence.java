@@ -8,6 +8,8 @@ public class singleHeritence {
     a.show();
     b.display();
     b.show();
+
+    // a.display(); // method can not be accessed
   }
 }
 
