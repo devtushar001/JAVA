@@ -8,7 +8,6 @@ public class multipleInheritance {
         b.car();
         b.pyar();
         b.khana(4);
-
     }
 }
 
