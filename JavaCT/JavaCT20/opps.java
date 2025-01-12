@@ -20,10 +20,10 @@ class P {
 
 class Q extends P {
   int z;
-
   Q(P obj ) {
     // this.z = Z;   // Giving a problem error
     // super(obj.x, obj.y);
-    super(5, obj.y);
+    // super(5, obj.y);
+    super(11, 9);
   }
 }
