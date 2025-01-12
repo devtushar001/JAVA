@@ -2,7 +2,7 @@ package JavaCT.JavaCT21;
 
 public class multipleInheritance {
     public static void main(String[] args) {
-        bacha b = new bacha();
+        bachcha b = new bachcha();
 
         b.pitai();
         b.car();
@@ -22,7 +22,7 @@ interface Mummy {
     public void khana(int roti);
 }
 
-class bacha implements Papa, Mummy {
+class bachcha implements Papa, Mummy {
     public void pitai() {
       System.out.println("Papa ki pitai");
     }
